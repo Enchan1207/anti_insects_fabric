@@ -3,7 +3,7 @@
 	"package": "me.enchan.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"StrongholdGeneratorMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
