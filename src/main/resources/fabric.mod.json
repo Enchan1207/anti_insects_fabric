@@ -3,7 +3,7 @@
 	"id": "anti_insects",
 	"version": "${version}",
 	"name": "Anti any insects",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Remove infested stone from stronghold, Prevent to spawn insects",
 	"authors": [
 		"Enchan1207"
 	],
