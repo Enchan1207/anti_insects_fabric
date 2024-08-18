@@ -22,7 +22,7 @@ loom {
     splitEnvironmentSourceSets()
 
 	mods {
-		"helloworld" {
+		"anti_insects" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}

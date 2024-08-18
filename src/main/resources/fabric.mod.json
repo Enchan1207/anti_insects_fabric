@@ -1,33 +1,21 @@
 {
 	"schemaVersion": 1,
-	"id": "helloworld",
+	"id": "anti_insects",
 	"version": "${version}",
-	"name": "Example mod",
+	"name": "Anti any insects",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Me!"
+		"Enchan1207"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Enchan1207/anti-insects"
 	},
-	"license": "CC0-1.0",
-	"icon": "assets/helloworld/icon.png",
+	"license": "MIT",
+	"icon": "assets/anti_insects/icon.png",
 	"environment": "*",
-	"entrypoints": {
-		"main": [
-			"me.enchan.ExampleMod"
-		],
-		"client": [
-			"me.enchan.ExampleModClient"
-		]
-	},
+	"entrypoints": {},
 	"mixins": [
-		"helloworld.mixins.json",
-		{
-			"config": "helloworld.client.mixins.json",
-			"environment": "client"
-		}
+		"anti_insects.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.10",
