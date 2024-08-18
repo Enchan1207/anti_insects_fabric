@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "helloworld",
 	"version": "${version}",
 	"name": "Example mod",
 	"description": "This is an example description! Tell everyone what your mod is about!",
@@ -12,20 +12,20 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/helloworld/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"me.enchan.ExampleMod"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"me.enchan.ExampleModClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"helloworld.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "helloworld.client.mixins.json",
 			"environment": "client"
 		}
 	],
