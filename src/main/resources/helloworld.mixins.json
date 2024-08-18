@@ -3,7 +3,8 @@
 	"package": "me.enchan.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"StrongholdGeneratorMixin"
+		"StoneBrickRandomizerMixin",
+		"PortalRoomMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

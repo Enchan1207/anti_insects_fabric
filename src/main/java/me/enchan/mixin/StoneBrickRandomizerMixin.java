@@ -7,7 +7,7 @@ import net.minecraft.structure.StructurePiece;
 import net.minecraft.util.math.random.Random;
 
 @Mixin(targets = "net.minecraft.structure.StrongholdGenerator$StoneBrickRandomizer")
-public class StrongholdGeneratorMixin extends StructurePiece.BlockRandomizer {
+public class StoneBrickRandomizerMixin extends StructurePiece.BlockRandomizer {
 
     @Override
     public void setBlock(Random random, int x, int y, int z, boolean placeBlock) {
