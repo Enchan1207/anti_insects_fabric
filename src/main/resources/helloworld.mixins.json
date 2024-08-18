@@ -5,7 +5,9 @@
 	"mixins": [
 		"StoneBrickRandomizerMixin",
 		"PortalRoomMixin",
-		"SilverfishEntityMixin"
+		"SilverfishEntityMixin",
+		"SpiderEntityMixin",
+		"CaveSpiderEntityMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
