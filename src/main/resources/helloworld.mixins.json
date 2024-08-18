@@ -4,7 +4,8 @@
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"StoneBrickRandomizerMixin",
-		"PortalRoomMixin"
+		"PortalRoomMixin",
+		"SilverfishEntityMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
